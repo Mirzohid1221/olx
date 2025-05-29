@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="olx">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>olx</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="flutter_bootstrap.js" async></script>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+
+<script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDRmG4aEE4VN8GFRMvOGXnDOlv7_24c0vU",
+      authDomain: "olxplatforma.firebaseapp.com",
+      projectId: "olxplatforma",
+      storageBucket: "olxplatforma.firebasestorage.app",
+      messagingSenderId: "956393069366",
+      appId: "1:956393069366:web:297fc2f1a1df8cd7767197"
+      measurementId: "G-J0FSE7K63R"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+</html>
